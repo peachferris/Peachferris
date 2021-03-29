@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(img/background/main.jpg);
+    background-image: url(/img/background/main.jpg);
     color: var(--white-color);
 }
 .first__link {
@@ -78,7 +78,7 @@
     padding-right: 70px;
 }
 .search-form__button {
-    background-image: url(img/svg/search.svg);
+    background-image: url(/img/svg/search.svg);
     width: 18px;
     height: 18px;
     background-position: center;
@@ -126,10 +126,10 @@
 .btn-right {
     left: auto;
     right: 50px;
-    background-image: url(img/svg/arrow-right.svg);
+    background-image: url(/img/svg/arrow-right.svg);
 }
 .btn-left {
-    background-image: url(img/svg/arrow-left.svg);
+    background-image: url(/img/svg/arrow-left.svg);
 }
 
 .main-slider__media {
@@ -143,7 +143,7 @@
     transform: translate(-50%, -40%);
     width: 32px;
     height: 56px;
-    background-image: url(img/svg/first-play.svg);
+    background-image: url(/img/svg/first-play.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
