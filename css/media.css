@@ -1,0 +1,156 @@
+@media (max-width: 1500px) {
+    .can__text {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .animation {
+        height: 500px;
+        margin: 10% auto 0;
+    }
+    h1 {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .animation {
+        height: 500px;
+        margin: 15% auto 0;
+    }
+    h1 {
+        width: 450px;
+    }
+    .principies-list {
+        margin-left: -300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .principies-list {
+        margin-left: -200px;
+    }
+    .principies-wrapper {
+        justify-content: center;
+        width: 900px;
+    }
+    .principies__text {
+        font-size: 12px;
+    }
+    .animation {
+        background-image: url('../../img/first__icons/small.png');
+    }
+    .animation__layer {
+        display: none;
+    }
+    .animation-principies-item {
+        display: none;
+    }
+    .animation-principies {
+        background-image: url('../../img/second__icons/Principies-list.svg');
+        background-repeat: no-repeat;
+        height: 150px;
+        margin: 0px auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+        width: 400px;
+    }
+    .first-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .author {
+        margin: 0 50px;
+    }
+    .list-item a {
+        font-size: 14px;
+    }
+    .footer__list {
+        display: block;
+        margin: 30px auto;
+    }
+    .author {
+        margin: 20px 0;
+    }
+    .can__text {
+        width: 100px;
+    }
+}
+
+@media (max-width: 612px) {
+    .animation-principies {
+        display: none;
+    }
+    .animation {
+       display: none;
+    }
+    .offer {
+        padding-top: 240px;
+    }
+    .principies-list {
+        margin-left: 0; 
+    }
+    .principies-wrapper {
+        width: 0;
+        margin: 0 auto;
+    }
+    .can__text {
+        width: 128px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .can__text {
+        width: 250px;
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+    .can__list {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .can__item {
+        flex: 0 0 23.5%;
+        margin-right: 0; 
+        overflow: hidden;
+        border-radius: 4px;
+        padding-top: 3%;
+        font-size: 0;
+        position: relative;
+    }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 42px;
+    }
+    .header-container {
+        
+        display: block;
+        margin: 0 auto;
+ 
+    }
+    .logo {
+        display: block;
+        margin-left: 15%;
+    }
+    .offer {
+        padding-top: 340px;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 30px;
+        width: 180px;
+    }
+}

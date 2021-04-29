@@ -1,0 +1,16 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+@import "vendor.css";
+@import "global.css";
+@import "overall.css";
+
+/* components imports */
+@import "components/header.css";
+@import "components/first.css";
+@import "components/can.css";
+@import "components/principies.css";
+@import "components/work.css";
+@import "components/footer.css";
+
+@import "media.css";
