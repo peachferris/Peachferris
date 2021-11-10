@@ -1,34 +1,54 @@
-.first {
-    height: 100vh;
-    min-height: 660px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../../img/background/bg-main.jpg);
-    color: var(--white-color);
-    margin-bottom: 60px;
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
 }
 
-.first-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .offer {
     padding-top: 140px;
 }
 
-h1 {
-    font-size: 60px;
+#text {
+    font-size: 3em;
     font-weight: 700;
-    width: 700px;
-    margin-bottom: 30px;
+    right: -350px;
+    z-index: 9;
+    position: absolute;
+    color: #fff;
+    white-space: normal;
 }
 
-.btn:hover {
-    color: var(--black-color);
-    background-color: var(--yellow-color);
+#btn {
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 8px 30px;
+    font-size: 1.5em;
+    display: inline-block;
+    color: #2b1055;
+    transform: translateY(100px);
+    z-index: 9;
+}
+
+#btn:hover {
+    color: var(--white-color);
+    border: 2px solid  var(--white-color);
+    background-color: transparent;
     transition: ease-in-out all 0.3s;
 }
 
@@ -89,4 +109,45 @@ h1 {
     background-repeat: no-repeat;
     background-position: bottom;
     left: 500px;
+}
+
+.sec {
+    position: relative;
+    padding: 60px;
+    background-color: #1c0522;
+}
+
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.first {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.first img#moon{
+    mix-blend-mode: screen;
+}
+
+.first img#mountains_front {
+    z-index: 10;
 }

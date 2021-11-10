@@ -5,75 +5,49 @@
 }
 
 .principies-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 700px;
+    text-align: center;
 }
 
-.principies-container  {
-    padding: 60px 0;
-    width: 289px;
-}
-.principies-container h2 {
-    padding: 30px 0;
+.principies-container h3 {
+    font-size: 20px;
 }
 
 .principies-list {
-    margin-left: -400px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    align-items: flex-start;
 }
+
 .principies-list__item {
    padding: 20px 0;
 }
-.principies-list__item:hover {
-    
+
+.principies-list__item:hover { 
     border-bottom: 2px solid var(--accent-color);
-    
     transition: ease-in-out all 0.3s;
 }
 
 .block {
     margin: 5% 20%;
 }
+
 .principies__item {
     text-align: left;
 
     margin: 0px 0px 20px 0px;
 }
+
+.principies__item div  {
+    width: 600px;
+}
+
 .principies__title {
     color: var(--accent-color);
     position: relative;
-    padding: 0 0 0 30px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
-.principies__title::before,
-.principies__title::after {
-    content: "";
-    width: 10px;
-    height: 1px;
-    background-color:  #8e96b7;
-    position: absolute;
-    top: 8px;
-    transition: all 0.3s ease;
-}
-.principies__title::before {
-    transform: rotate(40deg);
-    left: 0px;
-}
-.principies__title::after {
-    transform: rotate(-40deg);
-    left: 8px;
-}
-.principies__title.active::before,
-.principies__title.active::after {
-    background-color: #495274;
-}
-.principies__title.active::before {
-    transform: rotate(-40deg);
-}
-.principies__title.active::after {
-    transform: rotate(40deg);
-}
+
 .principies__text {
     font-size: 14px;
     font-weight: normal;
@@ -81,65 +55,11 @@
     color: var(--white-color);
     display: none;
 }
-.animation-principies {
-    width: 700px;
-    height: 450px;
-    margin: 0px auto 0;
-    overflow: hidden;
-    position: relative;
+
+.about div{
+    margin: 60px 0;
 }
 
-.animation-principies-item {
-    position: absolute;
-}
-.animation-principies-item:nth-of-type(1) {
-    background-image: url('../../img/second__icons/Finish.png');
-    width: 40%;
-    height: 60%;
-    background-repeat: no-repeat;
-    right: 280px;
-    background-position: bottom;
-}
-.animation-principies-item:nth-of-type(2) {
-    background-image: url('../../img/second__icons/Happy.png');
-    width: 100%;
-    height: 40%;
-    background-repeat: no-repeat;
-    background-position: right;
-    top: 500px;
-
-}
-.animation-principies-item:nth-of-type(3) {
-    background-image: url('../../img/second__icons/Honest.png');
-    width: 100%;
-    height: 35%;
-    background-repeat: no-repeat;
-    left: 100px;
-    background-position: top;
-}
-.animation-principies-item:nth-of-type(4) {
-    background-image: url('../../img/second__icons/Love.png');
-    width: 80%;
-    height: 45%;
-    background-repeat: no-repeat;
-    background-position: left;
-    left: 400px;
-}
-.animation-principies-item:nth-of-type(5) {
-    background-image: url('../../img/second__icons/Open-mind.png');
-    width: 40%;
-    height: 25%;
-    background-repeat: no-repeat;
-    background-position: center;
-    left: 500px;
-    
-}
-.animation-principies-item:nth-of-type(6) {
-    background-image: url('../../img/second__icons/Quality.png');
-    width: 100%;
-    height: 55%;
-    background-repeat: no-repeat;
-    background-position: top;
-    
-    
+.about p {
+    width: 661px;
 }

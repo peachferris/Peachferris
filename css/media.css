@@ -5,10 +5,6 @@
 }
 
 @media (max-width: 1200px) {
-    .animation {
-        height: 500px;
-        margin: 10% auto 0;
-    }
     h1 {
         width: 600px;
     }
@@ -22,110 +18,169 @@
     h1 {
         width: 450px;
     }
-    .principies-list {
-        margin-left: -300px;
-    }
 }
 
 @media (max-width: 992px) {
-    .principies-list {
-        margin-left: -200px;
-    }
-    .principies-wrapper {
-        justify-content: center;
-        width: 900px;
-    }
     .principies__text {
         font-size: 12px;
     }
-    .animation {
-        background-image: url('../../img/first__icons/small.png');
+    .about p {        
+        margin-top: 65px;
     }
-    .animation__layer {
-        display: none;
+
+    .can__list {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
     }
-    .animation-principies-item {
-        display: none;
+
+    .can__item:nth-child(2) {
+        margin-right: 0;
+        width: 352px;
     }
-    .animation-principies {
-        background-image: url('../../img/second__icons/Principies-list.svg');
-        background-repeat: no-repeat;
-        height: 150px;
-        margin: 0px auto 0;
+
+    .can__item:last-child {
+        width: 352px;
     }
 }
 
 @media (max-width: 768px) {
+    .principies-wrapper {
+        flex-direction: column;
+    }
+
     h1 {
         font-size: 48px;
         width: 400px;
     }
+
+    .can__item:nth-child(2) {
+        margin: 0 auto 10px auto;
+    }
+
+    .can__item:last-child {
+        margin: 0 auto;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    header {
+        padding: 30px 20px;
+    }
+
+    .sec {
+        padding: 20px;
+    }
+
+    .header .logo {
+        margin: 0 auto;
+    }
+
     .first-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .author {
-        margin: 0 50px;
+
+    .about p {
+        text-align: center;
     }
-    .list-item a {
-        font-size: 14px;
-    }
-    .footer__list {
-        display: block;
-        margin: 30px auto;
-    }
+
     .author {
         margin: 20px 0;
     }
-    .can__text {
-        width: 100px;
-    }
-}
-
-@media (max-width: 612px) {
-    .animation-principies {
-        display: none;
-    }
-    .animation {
-       display: none;
-    }
-    .offer {
-        padding-top: 240px;
-    }
-    .principies-list {
-        margin-left: 0; 
-    }
-    .principies-wrapper {
-        width: 0;
+    
+    .principies-container {
+        text-align: center;
         margin: 0 auto;
     }
-    .can__text {
-        width: 128px;
+
+    .list-item a {
         font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .principies__item div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        margin: 30px auto;
+    }
+
+    #text {
+        font-size: 1.1em;
+        right: -532px;
+    }
+
+    .sec {
+        padding: 20px;
+    }
+
+    .can__item::before {
+        margin: 0 auto;
+    }
+    
+    .sec h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .can__item {
+        margin-right: 0;
+    }
+
+    .img-about {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .can__list {
+        display: block;
+        padding-top: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .can__text {
+        font-size: 20px;
+        text-align: left;
+        left: 30%;
     }
 }
 
 @media (max-width: 576px) {
-    .can__text {
-        width: 250px;
-        font-size: 24px;
-        padding-bottom: 30px;
-    }
     .can__list {
         display: block;
-        width: 250px;
-        margin: 0 auto;
         padding-top: 30px;
     }
-    .can__item {
-        flex: 0 0 23.5%;
-        margin-right: 0; 
-        overflow: hidden;
-        border-radius: 4px;
-        padding-top: 3%;
-        font-size: 0;
-        position: relative;
+
+    .principies__item {
+        text-align: center;
+    }
+
+    .can__item:nth-child(2) {
+        width: 100%;
+    }
+
+    .can__item:last-child {
+        width: 100%;
+    }
+
+    .slider__item {
+        width: 100%;
+    }
+
+    .slider {
+        padding: 0px;
+    }
+    
+    .can__text {
+        font-size: 18px;
+        left: 25%;
     }
 }
 
@@ -133,16 +188,22 @@
     h1 {
         font-size: 42px;
     }
-    .header-container {
-        
-        display: block;
-        margin: 0 auto;
- 
+
+    .can__text {
+        font-size: 18px;
+        left: 23%;
     }
+
+    .header-container {
+        display: block;
+        margin: 0 auto; 
+    }
+
     .logo {
         display: block;
         margin-left: 15%;
     }
+
     .offer {
         padding-top: 340px;
     }
@@ -152,5 +213,10 @@
     h1 {
         font-size: 30px;
         width: 180px;
+    }
+
+    .can__text {
+        font-size: 18px;
+        left: 10%;
     }
 }
