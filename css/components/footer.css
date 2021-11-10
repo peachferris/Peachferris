@@ -20,6 +20,7 @@ span {
 
 .icons__links {
     margin: 20px 30px;
+    color: var(--yellow-color);
 }
 
 .icons_.icons__links {
@@ -32,7 +33,7 @@ span {
 }
 
 .author:hover {
-    color: var(--yellow-color);
+    color: var(--accent-color);
     transition: all 0.3s ease-in-out;
 }
 
